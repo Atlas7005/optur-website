@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OpturSMP</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            html {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: #fff;
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 100vh;
+                padding: 2rem;
+                background-image: url("background.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                backdrop-filter: blur(5px) brightness(0.75);
+                -webkit-backdrop-filter: blur(5px) brightness(0.75);
+            }
+
+            a, a:hover, a:focus, a:visited, a:active {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            header {
+                text-align: center;
+            }
+
+            header h1 {
+                font-size: 3rem;
+            }
+
+            header p {
+                font-size: 1.25rem;
+            }
+
+            main {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+
+            main a {
+                margin: 0 1rem;
+                transition: all 0.2s ease-in-out;
+            }
+
+            main a i, main a svg {
+                transition: all 0.2s ease-in-out;
+            }
+
+            main a:hover {
+                transform: scale(1.1);
+                filter: brightness(1.25);
+            }
+
+            main a:hover i, main a:hover svg {
+                filter: drop-shadow(0 0 0.35rem currentColor);
+            }
+
+            footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                width: 100%;
+            }
+
+            footer p i, footer p svg {
+                color: #ff1f1f;
+            }
+
+            footer a {
+                color: #0099ff;
+                transition: all 0.2s ease-in-out;
+            }
+
+            footer a:hover {
+                color: #00ccff;
+            }
+        </style>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <header class="title">
+            <h1>OpturSMP</h1>
+            <p>En SMP Minecraft server af Høgh</p>
+        </header>
+        <main class="socials">
+            <a href="https://discord.com/f8Z4wMNH4p" target="_blank" style="color: #5865F2;"><i class="fab fa-discord fa-5x"></i></a>
+            <a href="https://www.twitch.tv/hoegh_" target="_blank" style="color: #6441a5;"><i class="fab fa-twitch fa-5x"></i></a>
+        </main>
+        <footer>
+            <p>&copy; 2023 OpturSMP</p>
+            <p>Made with <i class="fas fa-heart fa-lg"></i> by <a href="https://github.com/atlas7005/" target="_blank">Atlas</a></p>
+        </footer>
+    </body>
+</html>
